@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xml:lang="en" xml:base="ex-epidoctemplate.xml" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>....</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority/>
+                <idno type="filename"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>EDR</repository>
+                        <idno>{edr_id}</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution">{writing_style_in_English}</rs>
+                                    <dim type="fromGround" unit="centimeter" min="0.24" max="0.11">{height_from_ground}</dim>
+                                    <dimensions><height unit="centimeter">{graffito_height}</height><width unit="centimeter">{graffito_length}</width></dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Letter heights: <height min="0.01" max="0.015" scope="letter">{letter_height_min}{letter_height_max}</height>
+                            </handNote>
+                            <handNote>[Specific letter] height: <height min="0.01" max="0.015" scope="individualLetter">{individual_letter_heights}</height>
+                            </handNote>
+                            <handNote>Flourish height: <height min="0.01" max="0.015" scope="flourishLetter">{letter_with_flourishes_height_min}{letter_with_flourishes_height_max}</height></handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote xml:lang="la">{description_in_latin}</decoNote>
+                           <decoNote xml:lang="en">{description_in_english}</decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <origin> 
+                            <origPlace>{ancient_city}</origPlace>
+                            <placeName ref="URI" type="property_number">{</placeName>
+                            <origDate>Date of origin</origDate>
+                        </origin>
+                        <provenance type="found"> Findspot and circumstances/context
+                        </provenance>
+                        <provenance type="observed">Modern location(s) (if different from repository, above)
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="photograph of text or monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la">
+                <ab>
+                    <lb n="1"/>Greek or Latin (etc.) text here
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>external apparatus criticus (if applicable)</p>
+            </div>
+            <div type="translation">
+                <p>{translation}</p>
+            </div>
+            <div type="commentary">
+                <p>{comment}</p>
+            </div>
+            <div type="bibliography">
+                <p>{bibliography}</p>
+            </div>
+            <div type="summary"><p>
+                {summary}
+            </p></div>
+        </body>
+    </text>
+</TEI>
