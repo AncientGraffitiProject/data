@@ -44,7 +44,7 @@
                     <history>
                         <origin> 
                             <origPlace>{ancient_city}</origPlace>
-                            <placeName ref="URI" type="property_number">{</placeName>
+                            <placeName ref="URI" type="property_number">{property metadata page}</placeName>
                             <origDate>Date of origin</origDate>
                         </origin>
                         <provenance type="found"> Findspot and circumstances/context
