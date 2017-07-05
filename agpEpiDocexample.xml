@@ -63,7 +63,7 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la">
                 <ab>
-                    <lb n="1"/>Greek or Latin (etc.) text here
+                    <lb n="1"/>{content}
                 </ab>
             </div>
             <div type="apparatus">
