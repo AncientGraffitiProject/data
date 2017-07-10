@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
+    xmlns:dct="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <skos:ConceptScheme rdf:about="http://agp.wlu.edu/vocabulary/vocab/">
+        <dc:title>AGP Vocabulary - Drawings</dc:title>
+        <dc:creator>Ancient Graffiti Project</dc:creator>
+        <dc:contributor/>
+        <dc:description/>
+        <dc:date>2016-08-17</dc:date>
+        <dct:modified>2016-09-26</dct:modified>
+        <dc:language>en</dc:language>
+    </skos:ConceptScheme>
+    <skos:Concept>
+        <skos:prefLabel xml:lang="la">circulus</skos:prefLabel>
+        <skos:altLabel xml:lang="en">circles</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">circle</skos:hiddenLabel>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300055627">
+                <skos:prefLabel>circles (plane figures)</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/de/term/2266">
+                <skos:prefLabel xml:lang="de">Kreis</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+    </skos:Concept>
+    <skos:Concept>
+        <skos:prefLabel xml:lang="la">cervus</skos:prefLabel>
+        <skos:altLabel xml:lang="en">deer</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">stag</skos:hiddenLabel>
+        <skos:related xml:lang="en">hunting</skos:related>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300250308">
+                <skos:prefLabel>Cervidae (family)</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:broader>animal</skos:broader>
+    </skos:Concept>
+    <skos:Concept>
+        <skos:prefLabel xml:lang="la">navis</skos:prefLabel>
+        <skos:altLabel xml:lang="en">boats</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">boat</skos:hiddenLabel>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300178749">
+                <skos:prefLabel>boats</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:closeMatch rdf:resource="http://archwort.dainst.org/de/term/1565"/>
+    </skos:Concept>
+    <skos:Concept>
+        <skos:prefLabel xml:lang="la">herma</skos:prefLabel>
+        <skos:altLabel xml:lang="en">busts</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">bust</skos:hiddenLabel>
+        <skos:related xml:lang="en">heads</skos:related>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300047457">
+                <skos:prefLabel>busts (figures)</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/de/term/8608">
+                <skos:prefLabel>Büste</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:broader>people</skos:broader>
+    </skos:Concept>
+    <skos:Concept>
+        <skos:prefLabel xml:lang="la">homo</skos:prefLabel>
+        <skos:altLabel xml:lang="en">people</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">person, human</skos:hiddenLabel>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300024979">
+                <skos:prefLabel>people (agents)</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/de/term/3173">
+                <skos:prefLabel>Volk</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+    </skos:Concept>
+    <skos:Concept>
+        <skos:prefLabel xml:lang="la">femina</skos:prefLabel>
+        <skos:altLabel xml:lang="en">women</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">female, woman, girl</skos:hiddenLabel>
+        <skos:related xml:lang="en">men</skos:related>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300025943">
+                <skos:prefLabel>women (female humans)</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/de/term/1817">
+                <skos:prefLabel>frau</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:broader>people</skos:broader>
+    </skos:Concept>
+    <skos:Concept>
+        <skos:prefLabel xml:lang="la">vir</skos:prefLabel>
+        <skos:altLabel xml:lang="en">men</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">man, male</skos:hiddenLabel>
+        <skos:related xml:lang="en">women</skos:related>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300025928">
+                <skos:prefLabel>men (male humans)</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/de/term/2376">
+                <skos:prefLabel>mann</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:broader>people</skos:broader>
+    </skos:Concept>
+    <skos:Concept>
+        <skos:prefLabel xml:lang="la">caput</skos:prefLabel>
+        <skos:altLabel xml:lang="en">heads</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">head, face, faces</skos:hiddenLabel>
+        <skos:related xml:lang="en">busts</skos:related>
+        <skos:exactMatch rdf:resource=""/>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300375054">
+                <skos:prefLabel>heads (animal components)</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:broader>people</skos:broader>
+    </skos:Concept>
+    <skos:Concept>
+        <skos:prefLabel xml:lang="la">gladiator</skos:prefLabel>
+        <skos:altLabel xml:lang="en">gladiators</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">gladiator</skos:hiddenLabel>
+        <skos:related xml:lang="en">helmets</skos:related>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300258488">
+                <skos:prefLabel>gladiators</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+    </skos:Concept>
+    <skos:Concept>
+        <skos:prefLabel xml:lang="la">galea</skos:prefLabel>
+        <skos:altLabel xml:lang="en">helmets</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">helmet, hat, hats</skos:hiddenLabel>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300036794">
+                <skos:prefLabel>helmets (protective wear)</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+    </skos:Concept>
+    <skos:Concept>
+        <skos:prefLabel xml:lang="la">athleta</skos:prefLabel>
+        <skos:altLabel xml:lang="en">gladiator fights</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">gladiatorial games, gladiatorial fight, fight, fights,
+            gladiatorial contest, gladiatorial contests</skos:hiddenLabel>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300379177">
+                <skos:prefLabel>gladiatorial games</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+    </skos:Concept>
+    <skos:Concept>
+        <skos:prefLabel xml:lang="la">canis</skos:prefLabel>
+        <skos:altLabel xml:lang="en">dogs</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">dog</skos:hiddenLabel>
+        <skos:related xml:lang="en">hunting</skos:related>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300265714">
+                <skos:prefLabel>canis (genus)</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/de/term/2112">
+                <skos:prefLabel>hund</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:broader>animal</skos:broader>
+    </skos:Concept>
+    <skos:Concept>
+        <skos:prefLabel xml:lang="la">venatio</skos:prefLabel>
+        <skos:altLabel xml:lang="en">hunting</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">hunt</skos:hiddenLabel>
+        <skos:related xml:lang="en">dogs</skos:related>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300239666">
+                <skos:prefLabel>hunting</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+    </skos:Concept>
+    <skos:Concept>
+        <skos:prefLabel xml:lang="la">animal</skos:prefLabel>
+        <skos:altLabel xml:lang="en">animals</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">animal</skos:hiddenLabel>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300249395">
+                <skos:prefLabel>Animalia (kingdom)</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/de/term/3053">
+                <skos:prefLabel>tier</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+    </skos:Concept>
+    <skos:Concept>
+        <skos:prefLabel xml:lang="la">eroticus</skos:prefLabel>
+        <skos:altLabel xml:lang="en">erotic scenes</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">erotic scene, erotic, erotic images, erotic
+            image</skos:hiddenLabel>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300028882">
+                <skos:prefLabel>erotica</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+    </skos:Concept>
+    <skos:Concept>
+        <skos:prefLabel xml:lang="la">camelus</skos:prefLabel>
+        <skos:altLabel xml:lang="en">camels</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">camel</skos:hiddenLabel>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300250139">
+                <skos:prefLabel>camelus (genus)</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/de/term/2152">
+                <skos:prefLabel>kamel</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:broader>animal</skos:broader>
+    </skos:Concept>
+    <skos:Concept>
+        <skos:prefLabel xml:lang="la">gallus</skos:prefLabel>
+        <skos:altLabel xml:lang="en">chickens</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">chicken, cock, cocks, rooster, roosters</skos:hiddenLabel>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300250037">
+                <skos:prefLabel>gallus gallus (species)</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/de/term/2109">
+                <skos:prefLabel>huhn</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:broader>animal</skos:broader>
+    </skos:Concept>
+    <skos:Concept>
+        <skos:prefLabel xml:lang="la">columna</skos:prefLabel>
+        <skos:altLabel xml:lang="en">columns</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">column</skos:hiddenLabel>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300001571">
+                <skos:prefLabel>columns (architectural elements)</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/de/term/479">
+                <skos:prefLabel>Säule</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+    </skos:Concept>
+    <skos:Concept>
+        <skos:prefLabel xml:lang="la">palma</skos:prefLabel>
+        <skos:altLabel xml:lang="en">palms</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">palm</skos:hiddenLabel>
+        <skos:related xml:lang="en">trees</skos:related>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300375395">
+                <skos:prefLabel>Aracaceae (family)</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:broader>plants</skos:broader>
+    </skos:Concept>
+    <skos:Concept>
+        <skos:prefLabel xml:lang="la">planta</skos:prefLabel>
+        <skos:altLabel xml:lang="en">plants</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">plant</skos:hiddenLabel>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300132360">
+                <skos:prefLabel>Plantae (kingdom)</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/de/term/2568">
+                <skos:prefLabel>Pflanze</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+    </skos:Concept>
+    <skos:Concept>
+        <skos:prefLabel xml:lang="la">arbor</skos:prefLabel>
+        <skos:altLabel xml:lang="en">trees</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">tree</skos:hiddenLabel>
+        <skos:related xml:lang="en">flowers, palms</skos:related>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300132410">
+                <skos:prefLabel>trees</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/de/term/1492">
+                <skos:prefLabel>Baum</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:broader>plants</skos:broader>
+    </skos:Concept>
+    <skos:Concept>
+        <skos:prefLabel xml:lang="la">flora</skos:prefLabel>
+        <skos:altLabel xml:lang="en">flowers</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">flower</skos:hiddenLabel>
+        <skos:related xml:lang="en">trees, palms</skos:related>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300264247">
+                <skos:prefLabel>flower (plant material)</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://archwort.dainst.org/de/term/1552">
+                <skos:prefLabel>Blüte</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+    </skos:Concept>
+</rdf:RDF>
