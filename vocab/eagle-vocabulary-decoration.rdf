@@ -703,9 +703,16 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/72">
         <skos:prefLabel xml:lang="es">Cérvido</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
+        <skos:altLabel xml:lang="en">deer</skos:altLabel>
+        <skos:altLabel xml:lang="la">cervus</skos:altLabel>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/639">
                 <skos:prefLabel xml:lang="fr">Cervidé</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300250308">
+                <skos:prefLabel>Cervidae (family)</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <dct:created>2013-10-02 01:02:39</dct:created>
@@ -807,14 +814,13 @@
     <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/82">
         <skos:prefLabel xml:lang="es">Círculo</skos:prefLabel>
         <skos:altLabel xml:lang="hu">kör</skos:altLabel>
+        <skos:prefLabel xml:lang="la">circulus</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.eagle-network.eu/voc/decor/"/>
         <skos:exactMatch>
             <skos:Concept rdf:about="http://www.eagle-network.eu/voc/decor/lod/649">
                 <skos:prefLabel xml:lang="fr">Circle</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
-        
-        
         <skos:exactMatch>
             <skos:Concept rdf:about="http://vocab.getty.edu/aat/300055627">
                 <skos:prefLabel>circles (plane figures)</skos:prefLabel>
