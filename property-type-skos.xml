@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
+    xmlns:dct="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <skos:ConceptScheme rdf:about="http://agp.wlu.edu/vocabulary/vocab/">
+        <dc:title>AGP Vocabulary - Property Types</dc:title>
+        <dc:creator>Ancient Graffiti Project</dc:creator>
+        <dc:contributor/>
+        <dc:description/>
+        <dc:date>2018-12-18</dc:date>
+        <dc:language>en</dc:language>
+    </skos:ConceptScheme>
+    <skos:Concept>
+        <skos:prefLabel xml:lang="en">house</skos:prefLabel>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/page/aat/300005433">
+                <skos:prefLabel>houses</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+    </skos:Concept>
+    <skos:Concept>
+        <skos:prefLabel xml:lang="en">workshop</skos:prefLabel>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/page/aat/300004531">
+                <skos:prefLabel>workshops (work spaces)</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+    </skos:Concept>
+    <skos:Concept>
+        <skos:prefLabel xml:lang="en">bakery</skos:prefLabel>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/page/aat/300005291">
+                <skos:prefLabel>bakeries</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:broader>workshop</skos:broader>
+    </skos:Concept>    
+    <skos:Concept>
+        <skos:prefLabel xml:lang="la">fullonica</skos:prefLabel>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/page/aat/300005153">
+                <skos:prefLabel>laundries (businesses)</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:broader>workshop</skos:broader>
+    </skos:Concept>
+    <skos:Concept>
+        <skos:prefLabel xml:lang="en">brothel</skos:prefLabel>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/page/aat/300007218">
+                <skos:prefLabel>brothels</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:broader>workshop</skos:broader>
+    </skos:Concept>
+        <skos:Concept>
+        <skos:prefLabel xml:lang="en">dye shop</skos:prefLabel>
+        <skos:broader>workshop</skos:broader>
+    </skos:Concept>
+    <skos:Concept>
+        <skos:prefLabel xml:lang="en">commercial space</skos:prefLabel>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/page/aat/300005147">
+                <skos:prefLabel>commercial buildings </skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+    </skos:Concept>
+    <skos:Concept>
+        <skos:prefLabel xml:lang="en">brothel</skos:prefLabel>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/page/aat/300007218">
+                <skos:prefLabel>brothels</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:broader>commercial space</skos:broader>
+    </skos:Concept>
+    <skos:Concept>
+        <skos:prefLabel xml:lang="en">stable</skos:prefLabel>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/page/aat/300005015">
+                <skos:prefLabel>stables (animal housing)</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:broader>commercial space</skos:broader>
+    </skos:Concept>
+    <skos:Concept>
+        <skos:prefLabel xml:lang="en">restaurant</skos:prefLabel>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/page/aat/300005182">
+                <skos:prefLabel>restaurants</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:broader>commercial space</skos:broader>
+    </skos:Concept>
+    <skos:Concept>
+        <skos:prefLabel xml:lang="en">garden</skos:prefLabel>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/page/aat/300005182">
+                <skos:prefLabel>restaurants</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:broader>commercial space</skos:broader>
+    </skos:Concept>
+
+
+</rdf:RDF>
+

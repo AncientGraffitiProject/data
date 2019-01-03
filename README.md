@@ -7,7 +7,11 @@ Data is available on [http://www.ancientgraffiti.org](http://www.ancientgraffiti
 
 ## Contents
 
-* Data
+* Epidoc
+	* AGP EpiDoc template
+* Properties
+	*
+	
 	* graffiti data structure  
 	* AGP/EpiDoc crosswalking template 
 * Vocabularies
@@ -15,3 +19,5 @@ Data is available on [http://www.ancientgraffiti.org](http://www.ancientgraffiti
 	* properties 
 
 ## License 
+
+Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) 
