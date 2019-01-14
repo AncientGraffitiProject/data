@@ -1,22 +1,25 @@
-# Ancient Graffiti Project Data README
+# Ancient Graffiti Project Metadata README
 
-This repo contains the AGP data set, including controlled vocabularies, and related documentation. 
+This repository contains metadata standards and guidelines for the Ancient Graffiti Project. 
 
-## Data Access
-Data is available on [http://www.ancientgraffiti.org](http://www.ancientgraffiti.org) for individual records or a filtered results list in the following formats: JSON, EpiDoc, and CSV. 
 
 ## Contents
 
-* Epidoc
-	* AGP EpiDoc template
-* Properties
-	*
-	
-	* graffiti data structure  
-	* AGP/EpiDoc crosswalking template 
-* Vocabularies
-	* drawings, SKOS
-	* properties 
+* agp-epidoc-template.xml
+EpiDoc template for AGP records. AGP fields appear in curly brackets inside relevant EpiDoc tags. 
+* data-dictionary.md
+Database tables for EDR records, AGP inscriptions, properties, and controlled vocabulary.
+* drawing-vocab-skos.xml
+Custom controlled vocabulary for figural graffiti or "drawings." Has been added to EAGLE's [Decoration Controlled Vocabulary](https://www.eagle-network.eu/resources/vocabularies/decor/).
+* herculaneum_properties.csv
+List of all property names and numbers in Herculanium in CSV format.
+* herculaneum_properties.json
+List of all property names and numbers in Herculanium in JSON format.
+* property-type-skos.xml
+Custom property types controlled vocabulary expressed in SKOS. 
+
+## Data Access
+Inscription data can be exported in EpiDoc, JSON, or CSV from [http://www.ancientgraffiti.org](http://www.ancientgraffiti.org) search results. 
 
 ## License 
 
