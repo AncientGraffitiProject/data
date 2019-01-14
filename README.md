@@ -7,10 +7,14 @@ This repository contains metadata standards and guidelines for the Ancient Graff
 
 * **agp-epidoc-template.xml**
 EpiDoc template for AGP records. AGP fields appear in curly brackets inside relevant EpiDoc tags. 
+* **AGPtoEpiDoc.csv**
+AGP fields with corresponding EpiDoc markup. 
 * **data-dictionary.md**
 Database tables for EDR records, AGP inscriptions, properties, and controlled vocabulary.
 * **drawing-vocab-skos.xml**
 Custom controlled vocabulary for figural graffiti or "drawings." Has been added to EAGLE's [Decoration Controlled Vocabulary](https://www.eagle-network.eu/resources/vocabularies/decor/).
+* **EDREpigraphicConventionConversionToEpiDoc.pdf**
+Crosswalk between EDR epigraphic conventions and EpiDoc guidelines.
 * **herculaneum_properties.csv**
 List of all property names and numbers in Herculanium in CSV format.
 * **herculaneum_properties.json**
