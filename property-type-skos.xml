@@ -39,11 +39,11 @@
     </skos:Concept>    
     <skos:Concept>
         <skos:prefLabel xml:lang="la">fullonica</skos:prefLabel>
-        <skos:exactMatch>
+        <skos:closeMatch>
             <skos:Concept rdf:about="http://vocab.getty.edu/page/aat/300005153">
                 <skos:prefLabel>laundries (businesses)</skos:prefLabel>
             </skos:Concept>
-        </skos:exactMatch>
+        </skos:closeMatch>
         <skos:broader>workshop</skos:broader>
     </skos:Concept>
     <skos:Concept>
@@ -97,13 +97,156 @@
     <skos:Concept>
         <skos:prefLabel xml:lang="en">garden</skos:prefLabel>
         <skos:exactMatch>
-            <skos:Concept rdf:about="http://vocab.getty.edu/page/aat/300005182">
-                <skos:prefLabel>restaurants</skos:prefLabel>
+            <skos:Concept rdf:about="http://vocab.getty.edu/page/aat/300386655">
+                <skos:prefLabel>gardens (institutions)</skos:prefLabel>
             </skos:Concept>
         </skos:exactMatch>
         <skos:broader>commercial space</skos:broader>
     </skos:Concept>
-
-
+    <skos:Concept>
+        <skos:prefLabel xml:lang="en">tavern</skos:prefLabel>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/page/aat/300005207">
+                <skos:prefLabel>taverns</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:broader>commercial space</skos:broader>
+    </skos:Concept>
+    <skos:Concept>
+        <skos:prefLabel xml:lang="en">inn</skos:prefLabel>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/page/aat/300007170">
+                <skos:prefLabel>inns</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:broader>commercial space</skos:broader>
+    </skos:Concept>
+    <skos:Concept>
+        <skos:prefLabel xml:lang="en">public building</skos:prefLabel>
+    </skos:Concept>
+    <skos:Concept>
+        <skos:prefLabel xml:lang="en">basilica</skos:prefLabel>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/page/aat/300170443">
+                <skos:prefLabel>basilicas (works by form)</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+         <skos:broader>public building</skos:broader>
+    </skos:Concept>
+    <skos:Concept>
+        <skos:prefLabel xml:lang="en">amphitheater</skos:prefLabel>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/page/aat/300007128">
+                <skos:prefLabel>amphitheaters (built works)</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+         <skos:broader>public building</skos:broader>
+    </skos:Concept>
+    <skos:Concept>
+        <skos:prefLabel xml:lang="en">theater</skos:prefLabel>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/page/aat/300007117">
+                <skos:prefLabel>theaters (buildings)</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+         <skos:broader>public building</skos:broader>
+    </skos:Concept>
+    <skos:Concept>
+        <skos:prefLabel xml:lang="en">baths</skos:prefLabel>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/page/aat/300007353">
+                <skos:prefLabel>public baths</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+         <skos:broader>public building</skos:broader>
+    </skos:Concept>
+    <skos:Concept>
+        <skos:prefLabel xml:lang="la">macellum</skos:prefLabel>
+        <skos:altLabel xml:lang="en">market</skos:altLabel>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/page/aat/300005238">
+                <skos:prefLabel>markets (structures)</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+         <skos:broader>public building</skos:broader>
+    </skos:Concept>
+    <skos:Concept>
+        <skos:prefLabel xml:lang="en">public space</skos:prefLabel>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/page/aat/300263422">
+                <skos:prefLabel>public spaces</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+    </skos:Concept>
+    <skos:Concept>
+        <skos:prefLabel xml:lang="en">facades</skos:prefLabel>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/page/aat/300002526">
+                <skos:prefLabel>façades</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+         <skos:broader>public space</skos:broader>
+    </skos:Concept>
+    <skos:Concept>
+        <skos:prefLabel xml:lang="en">sacred space</skos:prefLabel>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/page/aat/300400518">
+                <skos:prefLabel>sacred space</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+    </skos:Concept>
+    <skos:Concept>
+        <skos:prefLabel xml:lang="en">temple</skos:prefLabel>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/page/aat/300007595">
+                <skos:prefLabel>temples (buildings)</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+         <skos:broader>sacred space</skos:broader>
+    </skos:Concept>
+    <skos:Concept>
+        <skos:prefLabel xml:lang="en">altar</skos:prefLabel>
+        <skos:altLabel xml:lang="la">ara compitalis</skos:altLabel>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/page/aat/300052391">
+                <skos:prefLabel>altars and altar components </skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+         <skos:broader>sacred space</skos:broader>
+    </skos:Concept>
+    <skos:Concept>
+        <skos:prefLabel xml:lang="en">street shrine</skos:prefLabel>
+        <skos:altLabel xml:lang="la">aedicula</skos:altLabel>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/page/aat/300007558">
+                <skos:prefLabel>shrines (structures)</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+         <skos:broader>sacred space</skos:broader>
+    </skos:Concept>
+    <skos:Concept>
+        <skos:prefLabel xml:lang="en">tombs</skos:prefLabel>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/page/aat/300005926">
+                <skos:prefLabel>tombs</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+    </skos:Concept>
+    <skos:Concept>
+        <skos:prefLabel xml:lang="en">villas</skos:prefLabel>
+        <skos:exactMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/page/aat/300005517">
+                <skos:prefLabel>villas</skos:prefLabel>
+            </skos:Concept>
+        </skos:exactMatch>
+    </skos:Concept>
+    <skos:Concept>
+        <skos:prefLabel xml:lang="en">shop</skos:prefLabel>
+        <skos:closeMatch>
+            <skos:Concept rdf:about="http://vocab.getty.edu/page/aat/300005283">
+                <skos:prefLabel>stores</skos:prefLabel>
+            </skos:Concept>
+        </skos:closeMatch>
+    </skos:Concept>
 </rdf:RDF>
 
